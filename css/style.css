@@ -43,7 +43,7 @@ li {
 
 /*===========Body=========*/
 .page {
-  /* width: 1600px; */
+  width: 1600px;
   background-color: var(--bacground-color);
   color: var(--primary-text-color);
   font-family: var(--font-text-title);
