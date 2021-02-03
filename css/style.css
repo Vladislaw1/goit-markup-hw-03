@@ -185,9 +185,6 @@ header {
   background: url('../img/Hero.jpg'), rgba(47, 48, 58, 0.4);
 }
 .hero-div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   width: 696px;
   margin-left: auto;
   margin-right: auto;
@@ -332,7 +329,6 @@ header {
 /*---Footer---*/
 
 .footer {
-  width: 1600px;
   display: flex;
   background-color: #2f303a;
   padding: 60px 0px;
