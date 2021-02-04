@@ -7,6 +7,7 @@
   --secondary-color: #2196f3;
   --paragraph-color: #757575;
   --bacground-color: #ffffff;
+  --pt-: padding:94px;
 }
 * {
   margin: 0px;
@@ -38,7 +39,7 @@ li {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  /* outline: 2px dashed red; */
+  outline: 2px dashed red;
 }
 
 /*===========Body=========*/
@@ -180,7 +181,7 @@ header {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  background-image: url('../img/hero.png');
+  background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero.png);
 }
 
 .hero-div {
@@ -226,12 +227,30 @@ header {
   display: flex;
   margin-right: -30px;
 }
-.feature-list .li {
+.feature-list .li:not(:last-child) {
   margin-right: 30px;
   flex-basis: calc(100% / 4 - 30px);
 }
-.feature-list .li:last-child {
-  margin-right: 0px;
+.feature-icon {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  outline: 1px dashed red;
+  margin-bottom: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.icon1{
+  background-image: url('../img/icon-feature/antenna.svg');
+}
+.icon2{
+  
+}
+.icon3{
+  
+}
+.icon4{
+  
 }
 .feature-list .title {
   color: var(--title-text-color);
@@ -396,6 +415,7 @@ header {
   justify-content: center;
   /* padding-top: 94px; */
   margin-right: -8px;
+  padding-bottom: 50px;
 }
 .filter-list .button {
   margin-right: 8px;
@@ -434,7 +454,6 @@ header {
 
   margin-left: -30px;
   margin-top: -30px;
-  margin-top: 50px;
 }
 .work-list .link {
   text-decoration: none;
